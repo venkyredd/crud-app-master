@@ -1,4 +1,4 @@
-\module "vpc" {
+module "vpc" {
   source      = "../../../modules/vpc"
   name_prefix = var.name_prefix
 }
