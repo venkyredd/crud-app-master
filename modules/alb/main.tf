@@ -1,4 +1,4 @@
-\resource "aws_lb" "this" {
+resource "aws_lb" "this" {
   name               = "${var.name_prefix}-alb"
   internal           = false
   load_balancer_type = "application"
